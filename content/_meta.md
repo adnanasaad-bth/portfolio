@@ -4,5 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/adnanasaad-bth/portfolio
-      icon: github
+      icon: fab fa-github
+    - title: Link till linkedin.
+      url: https://www.linkedin.com/in/adnan-asaad/
+      icon: fab fa-linkedin
 ---
