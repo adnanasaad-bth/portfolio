@@ -13,13 +13,20 @@ body {
     padding: 0;
 }
 
-p{
+p, li{
     color : $font-color;
 }
+
 .main {
     width: 64em;
     margin: 118px auto 0;
     text-align: center;
+    background-clip: padding-box;
+}
+.main-wrap{
+    background-color: $background-alternative-color;
+    padding-bottom: 25px ;
+
 }
 
 ol, ul {

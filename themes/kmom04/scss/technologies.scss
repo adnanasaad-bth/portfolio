@@ -8,10 +8,12 @@
 }
 
 .box{
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     padding: 1rem;
     text-align: center;
     place-items: center;
+    background-color: $background-color;
+
 
 }
 
@@ -46,11 +48,15 @@
 
 .tech-menu{
     width: 30%;
+    background-color: $background-alternative-color;
+    padding: 1rem;
 }
 
 .tech-content{
     width: 60%;
     text-align: center;
+    background-color: $background-alternative-color;
+    padding: 1rem;
 }
 
 @media (max-width: 450px) {
