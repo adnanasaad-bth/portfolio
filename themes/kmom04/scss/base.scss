@@ -13,6 +13,9 @@ body {
     padding: 0;
 }
 
+p{
+    color : $font-color;
+}
 .main {
     width: 64em;
     margin: 118px auto 0;
@@ -88,6 +91,9 @@ body {
     .logo {
         max-width: 30%;
     }
+    .nav a, .nav-toggle {
+        color: $font-color;
+    }
     
     .nav-toggle {
         padding-left: 3px;
@@ -130,7 +136,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: $font-color;
 }
 
 .title{
@@ -140,6 +146,7 @@ body {
 .title p {
     font-style: italic;
 }
+
 
 /* Footer */
 
@@ -153,7 +160,7 @@ body {
 }
 
 .footer a {
-    color: #222;
+    color: $font-color;
     text-decoration: none;
 }
 
@@ -167,7 +174,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #000;
+    color: $font-color;
 }
 
 p, td, th, li, dd {
@@ -180,6 +187,7 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    color: $font-color
 }
 
 img {
