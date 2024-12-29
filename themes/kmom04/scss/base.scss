@@ -4,6 +4,7 @@ body {
 
 * {
     color: $font-color;
+    
 }
 
 * {
@@ -195,6 +196,7 @@ p, td, th, li, dd {
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
+    margin-top: 0.6em;
     font-weight: bold;
     color: $font-color
 }
@@ -203,9 +205,7 @@ img {
     max-width: 25%;
 }
 
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
-/* Code */
 
 code {
     margin: 0 0.1em;
